@@ -28,8 +28,7 @@ numbers'' = [4,8,15,16,23,42]
 --------------------------------------------------------------------------------
 
 isPalindrome :: [Char] -> Bool 
-isPalindrome x | x == reverse x = True
-    | otherwise = False
+isPalindrome x = x == reverse x
 
 --neatest code you'll ever see
 validModuleCode :: [Char] -> Bool 
